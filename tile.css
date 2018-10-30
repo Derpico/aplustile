@@ -20,10 +20,12 @@ Basic Layout Styles
 }
 	
 .main-footer {
+	position: fixed;
+	width: 100%;
 	text-align: center;
 	padding: 2em 0;
-	background: #d9e4ea;
-    margin-top: 20px;
+	background: beige;
+  margin-top: 20px;
 }
 
 /* Base Element Styles */
@@ -114,12 +116,12 @@ ul {
 Media Queries
 ========================*/
 
-@media (min-width: 769px) {
+/*@media (min-width: 769px) {
 	.wrap {
 		min-height: calc(100vh - 89px);
 	}
 }
-
+*/
 
 
 
